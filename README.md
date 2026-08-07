@@ -9,9 +9,12 @@ A starter template for new Node.js projects. Use this as a foundation for your n
 ## Table of Contents
 
 - [Features](#features)
+- [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Development](#development)
 - [Testing](#testing)
+- [Errors / Troubleshooting](#errors--troubleshooting)
+- [Security](#security)
 - [Customization](#customization)
 - [Support](#support)
 - [License](#license)
@@ -23,6 +26,11 @@ A starter template for new Node.js projects. Use this as a foundation for your n
 - Logging and signal handling via `@eliware/common`
 - Jest for testing
 - MIT License
+
+## Requirements
+
+- Node.js 26 or newer
+- A new project directory and environment appropriate to the application you build from this template
 
 ## Getting Started
 
@@ -60,6 +68,7 @@ A starter template for new Node.js projects. Use this as a foundation for your n
   npm test
   npm run test:gaps
   npm run lint
+   npm run pack
   ```
 
 - Add your tests in the `__tests__` folder or alongside your code.
@@ -73,6 +82,14 @@ Keep the template relationship when cloning specialized templates. Use `origin` 
 - Replace or extend the logging and signal handling as needed.
 - Add dependencies and scripts to fit your project.
 - Remove or modify template files and sections.
+
+## Errors / Troubleshooting
+
+This repository is a starter application, not a production service. Replace placeholder metadata and application logic after cloning. Keep `.env` local, verify configuration before startup, and use `registerSignals`/`registerHandlers` for explicit graceful shutdown and error handling.
+
+## Security
+
+Never commit `.env`, tokens, passwords, private keys, or credential-bearing URLs. Store secrets in the deployment environment or secret manager, and review dependencies and permissions before deploying a derived project.
 
 ## Support
 
