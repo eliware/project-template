@@ -27,18 +27,17 @@
   },
   "homepage": "https://github.com/eliware/project-template#readme",
   "devDependencies": {
-    "jest": "^30.0.4"
+    "jest": "^30.4.2"
   },
   "jest": {
     "testEnvironment": "node",
     "testMatch": [
       "**/?(*.)+(spec|test).[jt]s?(x)",
-      "**/?(*.)+(spec|test).mjs",
-      "**/?(*.)+(spec|test).cjs"
+      "**/?(*.)+(spec|test).mjs"
     ]
   },
   "dependencies": {
-    "@eliware/common": "^1.1.5",
+    "@eliware/common": "^1.1.6",
     "dotenv": "^17.4.2"
   }
 }

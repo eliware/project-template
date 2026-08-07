@@ -54,13 +54,19 @@ A starter template for new Node.js projects. Use this as a foundation for your n
 
 ## Testing
 
-- Run tests with:
+- Run tests and coverage-gap checks with:
 
   ```bash
   npm test
+  npm run test:gaps
+  npm run lint
   ```
 
 - Add your tests in the `__tests__` folder or alongside your code.
+
+## Template inheritance
+
+Keep the template relationship when cloning specialized templates. Use `origin` for the new project and `upstream` for this template, then fetch and review upstream changes before merging.
 
 ## Customization
 
