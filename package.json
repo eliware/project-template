@@ -2,7 +2,7 @@
     "name": "@eliware/project-template",
     "type": "module",
     "version": "1.1.0",
-    "description": "A template for starting new Node.js projects.",
+    "description": "A production-ready ESM Node.js project template for starting applications and services with testing, linting, and graceful lifecycle handling.",
     "main": "project-template.mjs",
     "scripts": {
         "start": "node project-template.mjs",
@@ -19,6 +19,8 @@
         "project-template",
         "nodejs",
         "starter",
+        "application",
+        "service",
         "template"
     ],
     "author": "Eli Sterling, eliware.org <eli@eliware.org>",
