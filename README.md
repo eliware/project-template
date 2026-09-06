@@ -18,6 +18,7 @@ A starter template for new Node.js projects. Use this as a foundation for your n
 - [Customization](#customization)
 - [Support](#support)
 - [License](#license)
+- [Documentation](#documentation)
 
 ## Features
 
@@ -65,10 +66,8 @@ A starter template for new Node.js projects. Use this as a foundation for your n
 - Run tests and coverage-gap checks with:
 
   ```bash
+  npm ci
   npm test
-  npm run test:gaps
-  npm run lint
-   npm run pack
   ```
 
 - Add your tests in the `__tests__` folder or alongside your code.
@@ -76,6 +75,12 @@ A starter template for new Node.js projects. Use this as a foundation for your n
 ## Template inheritance
 
 Keep the template relationship when cloning specialized templates. Use `origin` for the new project and `upstream` for this template, then fetch and review upstream changes before merging.
+
+## Documentation
+
+- [End-user documentation](docs/README.md)
+- [Specifications](specs/README.md)
+- [Runnable examples](examples/README.md)
 
 ## Customization
 

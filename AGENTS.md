@@ -13,7 +13,9 @@
 
 ## Validation
 
-Run `npm test`, `npm run test:gaps`, `npm run lint`, `npm run typecheck`, and `npm run pack` after template changes. Do not start services unintentionally.
+Run `npm ci` and `npm test` after template changes. Do not start services
+unintentionally. Read `docs/README.md`, `specs/README.md`, and
+`examples/README.md` before changing the corresponding material.
 
 ## Changes
 
