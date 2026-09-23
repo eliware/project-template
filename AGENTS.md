@@ -17,9 +17,11 @@
 ## Development
 
 - Use Node.js 26 and native ESM.
+- Read README.md, applicable specs, and the shared Docs, Conventions, and Operations authorities before changing files.
 - Keep `.env.example` current and never commit `.env` or credentials.
 - Preserve the documented clone, rename, install, start, test, and customization workflow.
 - Keep application startup and shutdown examples safe and explicit.
+- Keep runtime configuration and lifecycle behavior documented in README.md.
 
 ## Validation
 

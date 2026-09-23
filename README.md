@@ -1,6 +1,8 @@
 # [![eliware.org](https://eliware.org/logos/brand.png)](https://discord.gg/M6aTR9eTwN)
 
-## @eliware/project-template [![npm version](https://img.shields.io/npm/v/@eliware/project-template.svg)](https://www.npmjs.com/package/@eliware/project-template)[![license](https://img.shields.io/github/license/eliware/project-template.svg)](LICENSE)[![build status](https://github.com/eliware/project-template/actions/workflows/nodejs.yml/badge.svg)](https://github.com/eliware/project-template/actions)
+## @eliware/project-template [![license](https://img.shields.io/github/license/eliware/project-template.svg)](LICENSE)[![build status](https://github.com/eliware/project-template/actions/workflows/nodejs.yml/badge.svg)](https://github.com/eliware/project-template/actions)
+
+Documentation: [docs](docs/README.md) · [specifications](specs/README.md) · [examples](examples/README.md) · [release notes](RELEASE_NOTES.md)
 
 A starter template for new Node.js projects. Use this as a foundation for your next application or service.
 
@@ -33,7 +35,7 @@ A starter template for new Node.js projects. Use this as a foundation for your n
 - Node.js 26 or newer
 - A new project directory and environment appropriate to the application you build from this template
 
-## Getting Started
+## Setup
 
 1. **Clone this template:**
 
@@ -49,6 +51,11 @@ A starter template for new Node.js projects. Use this as a foundation for your n
    - Edit `package.json` (name, description, author, etc.)
    - Update this `README.md` as needed
    - Change the license if required
+
+## Usage
+
+Use this repository as a starting point: clone it, rename the package and
+entrypoint, configure `.env`, and replace the starter implementation.
 
 ## Development
 
@@ -84,7 +91,7 @@ Keep the template relationship when cloning specialized templates. Use `origin` 
 - Add dependencies and scripts to fit your project.
 - Remove or modify template files and sections.
 
-## Errors / Troubleshooting
+## Troubleshooting
 
 This repository is a starter application, not a production service. Replace placeholder metadata and application logic after cloning. Keep `.env` local, verify configuration before startup, and use `registerSignals`/`registerHandlers` for explicit graceful shutdown and error handling.
 
