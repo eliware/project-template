@@ -4,6 +4,16 @@
 
 `@eliware/project-template` is a starter ESM Node.js application template using dotenv, `@eliware/common`, Jest, and linting.
 
+## Scope and boundaries
+
+- This template owns the starter application, examples, tests, metadata, and local deployment examples.
+- Do not publish, tag, deploy, or change external platform state without explicit authorization.
+
+## Layout
+
+- `project-template.mjs` is the thin entrypoint; `.env.example` documents configuration.
+- `examples/`, `src/`, and `tests/` contain starter material for derived projects.
+
 ## Development
 
 - Use Node.js 26 and native ESM.
@@ -14,6 +24,10 @@
 ## Validation
 
 Run `npm test`, `npm run test:gaps`, `npm run lint`, `npm run typecheck`, and `npm run pack` after template changes. Do not start services unintentionally.
+
+## Security
+
+Never commit `.env`, tokens, passwords, private keys, or credential-bearing URLs.
 
 ## Changes
 
